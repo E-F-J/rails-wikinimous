@@ -1,0 +1,7 @@
+<h2>Add article</h2>
+
+<%= simple_form_for @articles do |f| %>
+  <%= f.input :title %>
+  <%= f.input :content %>
+  <%= f.button :submit %>
+<% end %>
